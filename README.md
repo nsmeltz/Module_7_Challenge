@@ -5,7 +5,7 @@
  
 # Results: Provide a bulleted list with four major points from the two analysis deliverables. Use images as support where needed.
 
-**Number of Retiring Employees per Job Title **                                                                              
+**Number of Retiring Employees per Job Title**                                                                              
   ![This is an image](https://github.com/nsmeltz/Module_7_Challenge/blob/63fca998e56084fa2dbcb3ba1d701a1ffc5c3839/Data/retiring_titles.png)
 
 **Employees Who are Eligible to Participate in Mentorship Program**                               
