@@ -14,6 +14,8 @@
 **Employees Who are Eligible to Participate in Mentorship Program**                                                               
 ![Mentorship Program](https://github.com/nsmeltz/Module_7_Challenge/blob/63fca998e56084fa2dbcb3ba1d701a1ffc5c3839/Data/mentorship_eligibilty.png)
 
+**Number of Employees Eligible for the Mentorship Program per Job Title**                                                                                                           ![Mentorship Numbers](https://github.com/nsmeltz/Module_7_Challenge/blob/871c641ebd0889750d5f71c05cffd849a6fb9734/Data/mentorship_titles.png)  
+
   - There are a total of 1,549 employees that are eligible for participation in the mentorship program.
   - All employees born in 1965 are eligible for participation in the mentorship program.
   
@@ -23,5 +25,7 @@
                                                          
     A total of 72,458 roles will need to be filled.
     
-  - **Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees?**                                                         
-**Number of Employees Eligible for the Mentorship Program per Job Title**                                                                                                           ![Mentorship Numbers](https://github.com/nsmeltz/Module_7_Challenge/blob/871c641ebd0889750d5f71c05cffd849a6fb9734/Data/mentorship_titles.png)  
+  - **Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees?**                                      
+  **Number of Retirees vs Mentees per Job Title**                                                                                                           
+  ![Retirees vs Mentees](https://github.com/nsmeltz/Module_7_Challenge/blob/b842893dc3f8324f0d8b64250baaa7d0bf1b6e7d/Data/retirees_vs_mentees.png)                
+
