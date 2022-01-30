@@ -107,10 +107,12 @@ FROM unique_titles
 SELECT * FROM mentorship_eligibilty
 LIMIT 10
 
-
-SELECT  rt.title as job_title, rt.count as number_retirees, mt.count as number_eligblementees
+-- numb retirees vs num of mentees
+SELECT  rt.title as job_title, rt.count as number_mentors, mt.count as number_mentees
+INTO retirees_vs_mentees
 FROM retiring_titles as rt
 FULL JOIN mentorship_titles as mt
 ON (rt.title = mt.title)
-ORDER BY number_retirees DESC
+ORDER BY number_mentors DESC
 
+SELECT * FROM retirees_vs_mentees
