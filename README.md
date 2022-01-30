@@ -22,4 +22,4 @@
     A total of 72,458 roles will need to be filled.
     
   - **Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees?**                           
-**Number of Employees Eligible for the Mentorship Program per Job Title**                                                                                                                           ![Mentorship Program](https://github.com/nsmeltz/Module_7_Challenge/blob/871c641ebd0889750d5f71c05cffd849a6fb9734/Data/mentorship_titles.png)  
+**Number of Employees Eligible for the Mentorship Program per Job Title**                                                                                                           ![Mentorship Program](https://github.com/nsmeltz/Module_7_Challenge/blob/871c641ebd0889750d5f71c05cffd849a6fb9734/Data/mentorship_titles.png)  
