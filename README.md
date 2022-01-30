@@ -27,7 +27,7 @@
     A total of 72,458 roles will need to be filled.
     
   - **Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees?**
-    The following table shows the number of retiress (ie the mentors) and the next generation of Pewlett Hackard employees (ie the mentees)                                       
-  **Number of Retirees vs Mentees per Job Title**                                                                                                           
-  ![Retirees vs Mentees](https://github.com/nsmeltz/Module_7_Challenge/blob/b842893dc3f8324f0d8b64250baaa7d0bf1b6e7d/Data/retirees_vs_mentees.png)                
+    The following table shows the number of retiress (ie the mentors) and the next generation of Pewlett Hackard employees (ie the mentees). For all job titles there are enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees. There are no mentees for the retiring managers to mentor, suggesting that Pewlett Hackard needs to be thinking about who the next generation managers will be.                                       
+  **Number of Mentors vs Mentees per Job Title**                                                                                                           
+  ![Mentors vs Mentees](https://github.com/nsmeltz/Module_7_Challenge/blob/b50c8bbe95ce3128ec2c6e2cddb7e2c95ca5e723/Data/mentors_vs_mentees.png)                
 
