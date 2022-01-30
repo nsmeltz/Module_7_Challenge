@@ -14,8 +14,8 @@
 **Employees Who are Eligible to Participate in Mentorship Program**                                                               
 ![Mentorship Program](https://github.com/nsmeltz/Module_7_Challenge/blob/63fca998e56084fa2dbcb3ba1d701a1ffc5c3839/Data/mentorship_eligibilty.png)
 
-  - There are a total of 1,549 employees that are eligible for participation in the mentorship program
-  - 
+  - There are a total of 1,549 employees that are eligible for participation in the mentorship program.
+  - All employees born in 1965 are eligible for participation in the mentorship program.
   
 # Summary: Provide high-level responses to the following questions, then provide two additional queries or tables that may provide more insight into the upcoming "silver tsunami."
   - **How many roles will need to be filled as the "silver tsunami" begins to make an impact?**                                                           
