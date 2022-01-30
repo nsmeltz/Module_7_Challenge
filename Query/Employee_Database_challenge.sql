@@ -3,6 +3,7 @@ SELECT	* FROM titles
 SELECT * FROM retirement_titles LIMIT (10)
 SELECT * FROM unique_titles LIMIT (10)
 
+-------------------------------------------------------DELIVREABLE #1 -----------------------------------------------------------------
 -- 1. Retrieve the emp_no, first_name, and last_name columns from the Employees table.
 -- 2. Retrieve the title, from_date, and to_date columns from the Titles table.
 -- 3. Create a new table using the INTO clause.
@@ -20,6 +21,7 @@ INNER JOIN titles as tit
 ON (emp.emp_no = tit.emp_no)
 WHERE (emp.birth_date BETWEEN '1952-01-01' AND '1955-12-31')
 ORDER BY emp_no
+;
 
 
 -- 9. Retrieve the employee number, first and last name, and title columns from the Retirement Titles table.
@@ -38,6 +40,7 @@ ON (emp.emp_no = tit.emp_no)
 WHERE (emp.birth_date BETWEEN '1952-01-01' AND '1955-12-31')
 	and (tit.to_date = '9999-01-01')
 ORDER BY emp_no ASC
+;
 
 
 -- Retrieve the number of employees by their most recent job title who are about to retire.
@@ -49,6 +52,31 @@ INTO retiring_titles
 FROM unique_titles
 GROUP BY title
 ORDER BY "count" DESC
+;
 
+-------------------------------------------------------DELIVREABLE #2 -----------------------------------------------------------------
+-- Write a query to create a Mentorship Eligibility table that holds the employees who are eligible to participate in a mentorship program.
+--Join the Employees and the Department Employee tables on the primary key.
+-- Join the Employees and the Titles tables on the primary key
+--Filter the data on the to_date column to all the current employees, then filter the data on the birth_date columns to get all the employees whose birth dates are between January 1, 1965 and December 31, 1965.
+--Order the table by the employee number.
 
+SELECT DISTINCT ON (emp.emp_no) 
+	emp.emp_no, 
+	emp.first_name, 
+	emp.last_name,
+	emp.birth_date,
+	demp.from_date,
+	demp.to_date,
+	tit.title
+INTO mentorship_eligibilty
+FROM employees as emp
+INNER JOIN dept_employees as demp
+ON (emp.emp_no = demp.emp_no)
+INNER JOIN titles as tit
+ON (emp.emp_no = tit.emp_no)
+WHERE (demp.to_date = '9999-01-01') 
+	AND (emp.birth_date BETWEEN '1965-01-01' AND '1965-12-31')
+ORDER BY emp_no ASC 
+;
 
