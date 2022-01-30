@@ -7,9 +7,9 @@
 
 **Number of Retiring Employees per Job Title**                                                                                                 
 ![This is an image](https://github.com/nsmeltz/Module_7_Challenge/blob/63fca998e56084fa2dbcb3ba1d701a1ffc5c3839/Data/retiring_titles.png)
-  
-  - There are total of 72,458 employees retiring fron Pewlet Hackard.
-  - The majority of the employees retiring are Senior Engineers and Senior Staff. 
+
+  - The majority of the employees retiring are Senior Engineers and Senior Staff.
+  - Only 2 managers are retiring. 
 
 **Employees Who are Eligible to Participate in Mentorship Program**                                                               
 ![Mentorship Program](https://github.com/nsmeltz/Module_7_Challenge/blob/63fca998e56084fa2dbcb3ba1d701a1ffc5c3839/Data/mentorship_eligibilty.png)
