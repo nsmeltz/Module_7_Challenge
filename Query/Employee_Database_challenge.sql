@@ -80,3 +80,18 @@ WHERE (demp.to_date = '9999-01-01')
 ORDER BY emp_no ASC 
 ;
 
+--------------------------------------------------------------------------------------------------------------------------------------
+-- Retirement Titles Table
+SELECT * FROM retirement_titles 
+LIMIT 10
+
+-- Unique Titles Table
+SELECT * FROM unique_titles	
+LIMIT 10
+
+-- Retiring Titles Table
+SELECT * FROM retiring_titles
+
+-- Mentorship Eligibilty Table
+SELECT * FROM mentorship_eligibilty
+LIMIT 10
