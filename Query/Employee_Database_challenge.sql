@@ -80,6 +80,14 @@ WHERE (demp.to_date = '9999-01-01')
 ORDER BY emp_no ASC 
 ;
 
+
+
+SELECT title, COUNT(title)
+INTO mentorship_titles
+FROM mentorship_eligibilty
+GROUP BY title
+ORDER BY "count" DESC
+;
 --------------------------------------------------------------------------------------------------------------------------------------
 -- Retirement Titles Table
 SELECT * FROM retirement_titles 
@@ -92,6 +100,17 @@ LIMIT 10
 -- Retiring Titles Table
 SELECT * FROM retiring_titles
 
+SELECT COUNT(title) AS "Number of Retirees"
+FROM unique_titles
+
 -- Mentorship Eligibilty Table
 SELECT * FROM mentorship_eligibilty
 LIMIT 10
+
+
+SELECT  rt.title as job_title, rt.count as number_retirees, mt.count as number_eligblementees
+FROM retiring_titles as rt
+FULL JOIN mentorship_titles as mt
+ON (rt.title = mt.title)
+ORDER BY number_retirees DESC
+
