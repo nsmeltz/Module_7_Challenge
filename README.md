@@ -18,10 +18,10 @@
   - All employees born in 1965 are eligible for participation in the mentorship program.
   
 # Summary: Provide high-level responses to the following questions, then provide two additional queries or tables that may provide more insight into the upcoming "silver tsunami."
-  - **How many roles will need to be filled as the "silver tsunami" begins to make an impact?** 
+  - **How many roles will need to be filled as the "silver tsunami" begins to make an impact?**                                                                             
 ![Retirees](https://github.com/nsmeltz/Module_7_Challenge/blob/02bfaf081b93cb7ea2e000d4fc5a143eb2da6348/Data/number%20of%20retirees.png)
                                                          
     A total of 72,458 roles will need to be filled.
     
-  - **Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees?**                           
+  - **Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees?**                                                         
 **Number of Employees Eligible for the Mentorship Program per Job Title**                                                                                                           ![Mentorship Numbers](https://github.com/nsmeltz/Module_7_Challenge/blob/871c641ebd0889750d5f71c05cffd849a6fb9734/Data/mentorship_titles.png)  
