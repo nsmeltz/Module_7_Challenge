@@ -1,7 +1,7 @@
 # Module_7_Challenge
 
 # Overview of the analysis: 
- The purpose of this analysis is to determine the number of retiring employees per title due and identify employees who are eligible to participate in a mentorship program.
+ The purpose of this analysis is to determine the current number of retiring employees per title and identify current employees who are eligible to participate in a mentorship program put on by the retireing employees. 
  
 # Results: Provide a bulleted list with four major points from the two analysis deliverables. Use images as support where needed.
 
